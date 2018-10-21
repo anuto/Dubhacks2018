@@ -33,42 +33,47 @@
             We hope the tools provided here will be useful to you.
           </p>
         </div>
-      	  <header>
-    <div>
-       <input id="search-input" placeholder="Search for stores">
-    </div>
-  </header>
-  <main>
-      <div id="hits"></div>
-  </main>
-  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
-   <script type="text/html" id="hit-template">
-  <div class="hit">
-<!--     <div class="hit-image">
-      <img src="{{image}}" alt="{{Store_Name}}">
-    </div>
- -->
- 	<div class="hit-content">
-      <h3 class="hit-name">{{Store_Name}}</h3>
-      <h2 class="hit-address">{{{Address}}}</h2>
-      <p class="hit-city">{{City}}</p>
-    </div>
-  </div>
-</script>
-   <script src="app.js"></script>
+    	  <header>
+          <div>
+            <input id="search-input" placeholder="Search for stores">
+          </div>
+        </header>
+        <main>
+          <div id="hits"></div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+        <script type="text/html" id="hit-template">
+          <div class="hit">
+            <!--     <div class="hit-image">
+            <img src="{{image}}" alt="{{Store_Name}}">
+          </div>
+        -->
+     	      <div class="hit-content">
+              <h3 class="hit-name">{{Store_Name}}</h3>
+              <h2 class="hit-address">{{{Address}}}</h2>
+              <p class="hit-city">{{City}}</p>
+            </div>
+          </div>
+        </script>
+        <script src="app.js"></script>
       </div>
       <div id="container2">
+        <h2>Add a Receipt!</h2>
         <form>
           <fieldset>
             <div class="form-group">
               <label for="exampleInputFile">Upload a receipt here.</label>
               <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-              <small id="fileHelp" class="form-text text-muted">Thank you for helping us to improve out data.</small>
+              <small id="fileHelp" class="form-text text-muted">
+                Thank you for helping us to improve out data. By uploading your receipts, we can gather
+                more detailed data about prices for items, which in turn allow uw to better help you.
+              </small>
             </div>
           </fieldset>
         </form>
       </div>
       <div id="container3">
+        <h2>Find a SNAP Store near you!</h2>
       </div>
     </main>
   </body>

@@ -24,3 +24,8 @@ nav, .navbar {
   margin-bottom: 4em;
   background-color: #EEEEEF;
 }
+
+#exampleInputFile {
+  margin-left: 41%;
+  margin-bottom: 3%;
+}
