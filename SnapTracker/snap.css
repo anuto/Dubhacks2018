@@ -17,6 +17,7 @@
   background-color: #9CC0E7;
   padding: 10%;
   padding-top: 5%;
+  text-align: center;
 }
 
 #container4 {
@@ -64,4 +65,8 @@ nav, .navbar {
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+.ais-search-box {
+  margin-left: 37%;
 }
