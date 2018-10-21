@@ -44,6 +44,14 @@ nav, .navbar {
   margin-bottom: 3%;
 }
 
+#container4 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;

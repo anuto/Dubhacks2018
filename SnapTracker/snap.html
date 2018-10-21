@@ -48,43 +48,14 @@
               <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
               <p id="fileHelp" class="lead text-muted">
                 Thank you for helping us to improve out data. By uploading your receipts, we can gather
-                more detailed data about prices for items, which in turn allow uw to better help you.
+                more detailed data about prices for items, which in turn allow us to better help you.
               </small>
             </div>
           </fieldset>
         </form>
       </div>
       <div id="container3">
-        <i class="material-icons">
-          search
-        </i>
-        <h2>Find what you're looking for!</h2>
-        <header>
-          <div>
-            <input id="search-input" placeholder="Search for stores">
-          </div>
-        </header>
-        <main>
-          <div id="hits"></div>
-        </main>
-        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
-        <script type="text/html" id="hit-template">
-          <div class="hit">
-            <!--     <div class="hit-image">
-            <img src="{{image}}" alt="{{Store_Name}}">
-          </div>
-        -->
-     	      <div class="hit-content">
-              <h3 class="hit-name">{{Store_Name}}</h3>
-              <h2 class="hit-address">{{{Address}}}</h2>
-              <p class="hit-city">{{City}}</p>
-            </div>
-          </div>
-        </script>
-        <script src="app.js"></script>
-      </div>
-      <div id="container4">
-        <i class="material-icons">
+         <i class="material-icons">
           store
         </i>
         <h2>Search for a SNAP Store near you!</h2>
@@ -92,6 +63,35 @@
           Unfortunately, not all stores accept SNAP. However, this map can help you find the stores that
           do accept SNAP!
         </p>
+     </div>
+     <div id = "container4">
+        <i class="material-icons">
+          search
+        </i>
+        <h2>Find what you're looking for!</h2>
+        <header>
+          <div>
+            <input id="search-input" placeholder="Search for foods">
+          </div>
+        </header>
+        <main>
+          <div id="hits"></div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+        <script type="text/html" id="hit-template">
+
+          <div class="hit">
+          	<div class="card border-secondary mb-3" style="max-width: 20rem;">
+
+     	      <div class="hit-content">
+              <h2 class="hit-name">{{Name}}</h2>
+              <h4 class="hit-foodGroup">{{FoodGroup}}</h4>
+              <p class="hit-modifiers">{{Modifiers}}</p>
+            </div>
+        </div>
+          </div>
+        </script>
+        <script src="app.js?1.02"></script>
       </div>
     </main>
   </body>
