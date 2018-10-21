@@ -75,7 +75,7 @@ ReceiptStack.navigationOptions = {
       name={
         Platform.OS === 'ios'
           ? `ios-information-circle${focused ? '' : '-outline'}`
-          : 'plus'
+          : 'md-add'
       }
     />
   ),
