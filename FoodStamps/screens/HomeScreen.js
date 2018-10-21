@@ -35,7 +35,7 @@ export default class HomeScreen extends React.Component {
   }
 
   render() {
-    const { navigate } = this.props.navigation;
+  //   const { navigate } = this.props.navigation;
 
     return (
       <View style={styles.container}>
@@ -62,7 +62,7 @@ export default class HomeScreen extends React.Component {
                 />
               </View>
               <TouchableNativeFeedback
-                onPress={() => this.props.navigation.navigate('Stores')}
+                onPress={() => this.props.navigation.navigate('Store')}
                 background={Platform.OS === 'android'
                 ? TouchableNativeFeedback.SelectableBackground() : ''}>
                 <View style={styles.button}>
@@ -81,7 +81,7 @@ export default class HomeScreen extends React.Component {
                 />
               </View>
               <TouchableNativeFeedback
-                onPress={this._onPressButton}
+                onPress={() => this.props.navigation.navigate('Search')}
                 background={Platform.OS === 'android'
                 ? TouchableNativeFeedback.SelectableBackground() : ''}>
                 <View style={styles.button}>
@@ -102,7 +102,7 @@ export default class HomeScreen extends React.Component {
                 />
               </View>
               <TouchableNativeFeedback
-                onPress={this._onPressButton}
+                onPress={() => this.props.navigation.navigate('Receipt')}
                 background={Platform.OS === 'android'
                 ? TouchableNativeFeedback.SelectableBackground() : ''}>
                 <View style={styles.button}>
@@ -121,11 +121,11 @@ export default class HomeScreen extends React.Component {
                 />
               </View>
               <TouchableNativeFeedback
-                onPress={this._onPressButton}
+                onPress={() => this.props.navigation.navigate('Settings')}
                 background={Platform.OS === 'android'
                 ? TouchableNativeFeedback.SelectableBackground() : ''}>
                 <View style={styles.button}>
-                  <Text style={styles.buttonText}>PROFILE</Text>
+                  <Text style={styles.buttonText}>Settings</Text>
                 </View>
               </TouchableNativeFeedback>
             </View>
