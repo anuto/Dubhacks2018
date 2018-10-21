@@ -7,6 +7,8 @@
     <script src="bootstrap/bootstrap/js/bootstrap.js"></script>
     <script src="snap.js"></script>
 
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="bootstrap/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" />
     <link href="bootstrap/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
@@ -65,7 +67,52 @@
           Unfortunately, not all stores accept SNAP. However, this map can help you find the stores that
           do accept SNAP!
         </p>
+        <div id="map"></div>
+
+
+           <script>
+
+         function initMap() {
+           var latitude;
+           var longitude;
+           navigator.geolocation.getCurrentPosition(
+             function(position) {
+               fetch('https://s3-us-west-2.amazonaws.com/foodstamps2/SnapStores.csv')
+                 .then(function(response) {
+                   latitude = position.coords.latitude;
+                   longitude = position.coords.longitude;
+                   var map = new google.maps.Map(document.getElementById('map'), {
+                     zoom: 15,
+                     center: {lat: latitude, lng: longitude}
+                   });
+                   console.log(response.text()
+                     .then(function(text) {
+                       const lines = text.split("\n")
+                       lines.forEach(function(element) {
+                       row = element.split(",")
+                       longitude2 = row[2]
+                       latitude2 = row[3]
+                       name = row[1]
+                       address = row[4]
+                       float_latitude = parseFloat(latitude2)
+                       float_longitude = parseFloat(longitude2)
+                       marker = new google.maps.Marker({
+                         position: {lat: float_latitude, lng: float_longitude},
+                         map: map,
+                         title: name
+                     });})
+                 })
+               )}
+             )
+           }
+         )
+       }
+       </script>
+       <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIJDsLVVBPb7a-uGbfqN3fEylgnl9KPns&callback=initMap">
+      </script>
      </div>
+
      <div id = "container4">
         <i class="material-icons">
           search
@@ -75,22 +122,24 @@
           <div>
             <input id="search-input" placeholder="Search for foods">
           </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+            <label class="custom-control-label" for="customCheck1">SNAP eligible foods only?</label>
+          </div>
         </header>
-        <main>
           <div id="hits"></div>
-        </main>
-        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
-        <script type="text/html" id="hit-template">
+
+          <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+          <script type="text/html" id="hit-template">
 
           <div class="hit">
           	<div class="card border-secondary mb-3" style="max-width: 20rem;">
-
-     	      <div class="hit-content">
-              <h2 class="hit-name">{{Name}}</h2>
-              <h4 class="hit-foodGroup">{{FoodGroup}}</h4>
-              <p class="hit-modifiers">{{Modifiers}}</p>
+       	      <div class="hit-content">
+                <h2 class="hit-name">{{Name}}</h2>
+                <h4 class="hit-foodGroup">{{FoodGroup}}</h4>
+                <p class="hit-modifiers">{{Modifiers}}</p>
+              </div>
             </div>
-        </div>
           </div>
         </script>
         <script src="app.js?1.02"></script>

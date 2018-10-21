@@ -1,1 +1,1 @@
-
+$('#toggle-one').bootstrapToggle();
