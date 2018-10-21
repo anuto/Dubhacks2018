@@ -1,8 +1,10 @@
 {
+  "name": "SNAPTrack",
+  "displayName": "SNAP Track",
   "expo": {
-    "name": "FoodStamps",
+    "name": "SNAPTrack",
     "description": "A very interesting project.",
-    "slug": "FoodStamps",
+    "slug": "SNAPTrack",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
