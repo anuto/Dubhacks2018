@@ -1,4 +1,12 @@
 #container1 {
+  background-color: #FAEACB;
+  padding: 10%;
+}
+
+#container2 {
+  background-color: #F7DBD7;
   text-align: center;
-  background-color: 
+  padding: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
