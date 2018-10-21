@@ -7,6 +7,7 @@
     <script src="bootstrap/bootstrap/js/bootstrap.js"></script>
     <script src="snap.js"></script>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="bootstrap/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" />
     <link href="bootstrap/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
     <link href="bootstrap/bootstrap/css/bootstrap-responsive.css" type="text/css" rel="stylesheet" />
@@ -33,16 +34,19 @@
             We hope the tools provided here will be useful to you.
           </p>
         </div>
-    	  
+
       </div>
       <div id="container2">
+        <i class="material-icons">
+          receipt
+        </i>
         <h2>Add a Receipt!</h2>
         <form>
           <fieldset>
             <div class="form-group">
               <label for="exampleInputFile">Upload a receipt here.</label>
               <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-              <small id="fileHelp" class="form-text text-muted">
+              <p id="fileHelp" class="lead text-muted">
                 Thank you for helping us to improve out data. By uploading your receipts, we can gather
                 more detailed data about prices for items, which in turn allow us to better help you.
               </small>
@@ -51,10 +55,20 @@
         </form>
       </div>
       <div id="container3">
-        <h2>Find a SNAP Store near you!</h2>
+         <i class="material-icons">
+          store
+        </i>
+        <h2>Search for a SNAP Store near you!</h2>
+        <p class="lead">
+          Unfortunately, not all stores accept SNAP. However, this map can help you find the stores that
+          do accept SNAP!
+        </p>
      </div>
      <div id = "container4">
-     	<h2>Find SNAP foods!</h2>
+        <i class="material-icons">
+          search
+        </i>
+        <h2>Find what you're looking for!</h2>
         <header>
           <div>
             <input id="search-input" placeholder="Search for foods">
@@ -70,8 +84,8 @@
           	<div class="card border-secondary mb-3" style="max-width: 20rem;">
 
      	      <div class="hit-content">
-              <h2 class="hit-name">{{Name}}</h3>
-              <h4 class="hit-foodGroup">{{FoodGroup}}</h2>
+              <h2 class="hit-name">{{Name}}</h2>
+              <h4 class="hit-foodGroup">{{FoodGroup}}</h4>
               <p class="hit-modifiers">{{Modifiers}}</p>
             </div>
         </div>

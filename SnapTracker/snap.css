@@ -1,18 +1,30 @@
 #container1 {
   background-color: #EEEEEF;
   padding: 10%;
+  padding-top: 5%;
 }
 
 #container2 {
   background-color: #F7DBD7;
   text-align: center;
   padding: 10%;
+  padding-top: 5%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #container3 {
   background-color: #9CC0E7;
+  padding: 10%;
+  padding-top: 5%;
+  text-align: center;
+}
+
+#container4 {
+  background-color: #FAEACB;
+  padding: 10%;
+  padding-top: 5%;
+  text-align: center;
 }
 
 nav, .navbar {
@@ -20,9 +32,9 @@ nav, .navbar {
 }
 
 .jumbotron {
-  border-radius: 15%;
-  margin-bottom: 4em;
   background-color: #EEEEEF;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 #exampleInputFile {
@@ -38,4 +50,31 @@ nav, .navbar {
   padding-right: 15%;
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10em;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
 
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.ais-search-box {
+  margin-left: 37%;
+}
