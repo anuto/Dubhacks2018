@@ -32,6 +32,8 @@ export default class SearchScreen extends React.Component {
   render() {
     return (
       <View>
+          <Text style={styles.title}>Search</Text>
+
       </View>
     );
   }
