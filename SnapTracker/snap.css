@@ -44,14 +44,6 @@ nav, .navbar {
   margin-bottom: 3%;
 }
 
-#container4 {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -91,4 +83,18 @@ nav, .navbar {
 
 #sbx-icon-search-13 {
   display: none;
+}
+
+#profilePage {
+  background-color: #EEEEEF;
+}
+
+#ais-hits {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ais-hits--item {
+  max-width: 20rem;
+  margin: 0;
 }
