@@ -5,7 +5,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
-  TouchableOpacity,
+  TouchableNativeFeedback,
   View,
   Button,
   Alert,
@@ -16,6 +16,7 @@ import Colors from '../constants/Colors';
 
 import { WebBrowser } from 'expo';
 
+import ButtonIcon from '../components/ButtonIcon';
 import { MonoText } from '../components/StyledText';
 
 export default class HomeScreen extends React.Component {
@@ -49,43 +50,82 @@ export default class HomeScreen extends React.Component {
 
           <View style={styles.buttonFormat}>
             <View style={styles.buttonContainer}>
-              <Button style={styles.button}
-              icon={
-                <Icon.Ionicons
-                  name='md-environment'
-                  size={50}
-                  color='red'
+              <View style={styles.iconContainer}>
+                <ButtonIcon
+                  name={
+                    Platform.OS === 'ios'
+                      ? `ios-information-circle`
+                      : 'md-map'
+                  }
                 />
-              }
-                onPress={() =>
-                  navigate('screen: StoresScreen.js')
-                }
-                title="Stores"
-                color="#A4C639"
-              />
+              </View>
+              <TouchableNativeFeedback
+                onPress={this._onPressButton}
+                background={Platform.OS === 'android'
+                ? TouchableNativeFeedback.SelectableBackground() : ''}>
+                <View style={styles.button}>
+                  <Text style={styles.buttonText}>STORES</Text>
+                </View>
+              </TouchableNativeFeedback>
             </View>
             <View style={styles.buttonContainer}>
-              <Button
+              <View style={styles.iconContainer}>
+                <ButtonIcon
+                  name={
+                    Platform.OS === 'ios'
+                      ? `ios-information-circle`
+                      : 'md-search'
+                  }
+                />
+              </View>
+              <TouchableNativeFeedback
                 onPress={this._onPressButton}
-                title="Search"
-                color="#A4C639"
-              />
+                background={Platform.OS === 'android'
+                ? TouchableNativeFeedback.SelectableBackground() : ''}>
+                <View style={styles.button}>
+                  <Text style={styles.buttonText}>SEARCH</Text>
+                </View>
+              </TouchableNativeFeedback>
             </View>
           </View>
           <View style={styles.buttonFormat}>
             <View style={styles.buttonContainer}>
-              <Button
+              <View style={styles.iconContainer}>
+                <ButtonIcon
+                  name={
+                    Platform.OS === 'ios'
+                      ? `ios-information-circle`
+                      : 'md-add'
+                  }
+                />
+              </View>
+              <TouchableNativeFeedback
                 onPress={this._onPressButton}
-                title="Add Receipt"
-                color="#A4C639"
-              />
+                background={Platform.OS === 'android'
+                ? TouchableNativeFeedback.SelectableBackground() : ''}>
+                <View style={styles.button}>
+                  <Text style={styles.buttonText}>ADD RECEIPT</Text>
+                </View>
+              </TouchableNativeFeedback>
             </View>
             <View style={styles.buttonContainer}>
-              <Button
+              <View style={styles.iconContainer}>
+                <ButtonIcon
+                  name={
+                    Platform.OS === 'ios'
+                      ? `ios-information-circle`
+                      : 'md-options'
+                  }
+                />
+              </View>
+              <TouchableNativeFeedback
                 onPress={this._onPressButton}
-                title="Profile"
-                color="#A4C639"
-              />
+                background={Platform.OS === 'android'
+                ? TouchableNativeFeedback.SelectableBackground() : ''}>
+                <View style={styles.button}>
+                  <Text style={styles.buttonText}>PROFILE</Text>
+                </View>
+              </TouchableNativeFeedback>
             </View>
           </View>
         </ScrollView>
@@ -224,6 +264,9 @@ const styles = StyleSheet.create({
     height: 150,
     width: 150,
     backgroundColor: "#A4C639",
+    flex: 1,
+    justifyContent: "flex-end",
+    borderRadius: 30,
   },
   title: {
     fontSize: 30,
@@ -234,9 +277,22 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     backgroundColor: '#fff',
     marginLeft: 'auto',
-    marginRight: 'auto'
+    marginRight: 'auto',
   },
   button: {
-    height: 'inherit',
-  }
+    alignItems: 'center',
+  },
+  buttonText: {
+    padding: 20,
+    color: 'white',
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    marginBottom: -10,
+  },
+  iconContainer: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: -30,
+  },
 });
