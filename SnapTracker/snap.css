@@ -32,9 +32,9 @@ nav, .navbar {
 }
 
 .jumbotron {
-  border-radius: 15%;
   background-color: #EEEEEF;
   text-align: center;
+  margin-bottom: 0;
 }
 
 #exampleInputFile {
