@@ -44,7 +44,7 @@
               <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
               <small id="fileHelp" class="form-text text-muted">
                 Thank you for helping us to improve out data. By uploading your receipts, we can gather
-                more detailed data about prices for items, which in turn allow uw to better help you.
+                more detailed data about prices for items, which in turn allow us to better help you.
               </small>
             </div>
           </fieldset>
@@ -52,9 +52,12 @@
       </div>
       <div id="container3">
         <h2>Find a SNAP Store near you!</h2>
+     </div>
+     <div id = "container4">
+     	<h2>Find SNAP foods!</h2>
         <header>
           <div>
-            <input id="search-input" placeholder="Search for stores">
+            <input id="search-input" placeholder="Search for foods">
           </div>
         </header>
         <main>
@@ -62,19 +65,19 @@
         </main>
         <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
         <script type="text/html" id="hit-template">
+
           <div class="hit">
-            <!--     <div class="hit-image">
-            <img src="{{image}}" alt="{{Store_Name}}">
-          </div>
-        -->
+          	<div class="card border-secondary mb-3" style="max-width: 20rem;">
+
      	      <div class="hit-content">
-              <h3 class="hit-name">{{Store_Name}}</h3>
-              <h2 class="hit-address">{{{Address}}}</h2>
-              <p class="hit-city">{{City}}</p>
+              <h2 class="hit-name">{{Name}}</h3>
+              <h4 class="hit-foodGroup">{{FoodGroup}}</h2>
+              <p class="hit-modifiers">{{Modifiers}}</p>
             </div>
+        </div>
           </div>
         </script>
-        <script src="app.js"></script>
+        <script src="app.js?1.02"></script>
       </div>
     </main>
   </body>
