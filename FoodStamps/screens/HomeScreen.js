@@ -43,7 +43,7 @@ export default class HomeScreen extends React.Component {
           <View style={styles.getStartedContainer}>
             {this._maybeRenderDevelopmentModeWarning()}
 
-            <Text style={styles.title}>Food Stamps</Text>
+            <Text style={styles.title}>EBTracker</Text>
 
             <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
               <Text style={styles.codeHighlightText}>Welcome back!</Text>
@@ -271,8 +271,10 @@ const styles = StyleSheet.create({
     borderRadius: 30,
   },
   title: {
-    fontSize: 30,
+    fontSize: 50,
     fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
   buttonFormat: {
     flex: 1,
