@@ -29,6 +29,8 @@
 
 nav, .navbar {
   margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .jumbotron {
@@ -67,6 +69,18 @@ nav, .navbar {
   font-feature-settings: 'liga';
 }
 
+#profile {
+  font-size: 2em;
+}
+
+#profile:hover {
+  cursor: pointer;
+}
+
 .ais-search-box {
   margin-left: 37%;
+}
+
+#sbx-icon-search-13 {
+  display: none;
 }
