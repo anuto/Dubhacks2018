@@ -10,6 +10,8 @@ import com.algolia.instantsearch.helpers.Searcher;
 import com.algolia.instantsearch.helpers.InstantSearch;
 import com.algolia.search.saas.Query;
 
+import com.example.althea.fs_search.FSSearchFoodModule;
+
 public class FoodSearchActivity extends AppCompatActivity implements AbsListView.OnScrollListener  {
 
     private static final int HITS_PER_PAGE = 20;
@@ -61,4 +63,10 @@ public class FoodSearchActivity extends AppCompatActivity implements AbsListView
             searcher.loadMore();
         }
     }
+
+    protected List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+            new MainReactPackage(),
+            new CustomFSSearchPackage()); // <-- Add this line with your package name.
+}
 }
