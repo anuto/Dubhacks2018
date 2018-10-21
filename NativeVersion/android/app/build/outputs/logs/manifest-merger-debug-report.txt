@@ -1,0 +1,204 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2373026c0b2db550b592ab8c177a049c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.algolia:instantsearch-android:1.13.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/instantsearch-android-1.13.0.aar/2c552fbc9f19499c07918814468bb5be/AndroidManifest.xml:24:1-35:12
+MERGED from [com.algolia:algoliasearch-android:3.23.13] /Users/althea/.gradle/caches/transforms-1/files-1.1/algoliasearch-android-3.23.13.aar/9d6328b4ed300368a0793c4b3e678a5c/AndroidManifest.xml:24:1-35:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f7943d9026bf6c2580297e366cca4694/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/althea/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2cb754933afc66020bd4bf9553213196/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2a3a3f1b3aec833b443559001669d29b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4839c19ca142d255a22f927d826f16e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/541d7368080df49a3ce47dd35b659977/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7d105f0a207478f5e3d350bb81a827d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/f01c112fc426058923c958cd326541c0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/6cc8e5cf5482a389eeec30f36e21f773/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d679a36d20a3c85e56c02e79ca59f2b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/771a837cfeaf0fbff44e138732e46ec4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/47c879509ccb33428cdff6439c808472/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.databinding:adapters:3.3.0-alpha03] /Users/althea/.gradle/caches/transforms-1/files-1.1/adapters-3.3.0-alpha03.aar/6077a6ac83f259489fa07344a4a0a6d3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.3.0-alpha03] /Users/althea/.gradle/caches/transforms-1/files-1.1/library-3.3.0-alpha03.aar/bb343527877d2c412698d1981b75efb5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f41310e07c818393044bfb6d75c33eb7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/177e8c755074e808e0a400df7b33f18a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/502dcfd1ae539535fc792dceb54c06b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/03ee64d7e7ee8951371f38fbc2d27fe1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/377c688c2e703ccde6a18944431563f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/718d1c35e3b378288a06a27059f23263/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a9ee0095a28be57e5181db543305ff02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5711c615a26a7f69d49b2224925f0fe6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e661f334f5744243ed4b893fa12590e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ef9d68325750dfa6ff7ee468f43b465e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/71ce9c09071066596b52dcc9d4b45f02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84c78abd6722d9efe22f7734148e08f7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5aee961bcd3d9fe28df23fecfa89889a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/59eb721d3de64a8e05b268ebc4faefe1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9d85a00cd8aa49461112d996ae641733/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/dc398d62ffbfe181242873b5083ab184/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3c603849f90c9e0942047c4fc3a4ce30/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0e6ad62033f750c6b91578fed202beb7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1c88c531300829049d3c6b3a4637f3ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e552a60356392533f11746396387f3ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7f44ba311b59f84e9053a844efd71b88/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/09e992d24f5ee9dc52ce965c440c6bfd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e994b95d20877dfb8a7fe736de7dc63b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:design:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2373026c0b2db550b592ab8c177a049c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2373026c0b2db550b592ab8c177a049c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/althea/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2cb754933afc66020bd4bf9553213196/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/althea/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2cb754933afc66020bd4bf9553213196/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/f01c112fc426058923c958cd326541c0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/f01c112fc426058923c958cd326541c0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/6cc8e5cf5482a389eeec30f36e21f773/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/6cc8e5cf5482a389eeec30f36e21f773/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84c78abd6722d9efe22f7734148e08f7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84c78abd6722d9efe22f7734148e08f7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5aee961bcd3d9fe28df23fecfa89889a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5aee961bcd3d9fe28df23fecfa89889a/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84c78abd6722d9efe22f7734148e08f7/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.althea.FS_search_food.ui.FoodSearchActivity
+ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:13:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2373026c0b2db550b592ab8c177a049c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2373026c0b2db550b592ab8c177a049c/AndroidManifest.xml:20:5-44
+MERGED from [com.algolia:instantsearch-android:1.13.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/instantsearch-android-1.13.0.aar/2c552fbc9f19499c07918814468bb5be/AndroidManifest.xml:29:5-31:41
+MERGED from [com.algolia:instantsearch-android:1.13.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/instantsearch-android-1.13.0.aar/2c552fbc9f19499c07918814468bb5be/AndroidManifest.xml:29:5-31:41
+MERGED from [com.algolia:algoliasearch-android:3.23.13] /Users/althea/.gradle/caches/transforms-1/files-1.1/algoliasearch-android-3.23.13.aar/9d6328b4ed300368a0793c4b3e678a5c/AndroidManifest.xml:29:5-31:41
+MERGED from [com.algolia:algoliasearch-android:3.23.13] /Users/althea/.gradle/caches/transforms-1/files-1.1/algoliasearch-android-3.23.13.aar/9d6328b4ed300368a0793c4b3e678a5c/AndroidManifest.xml:29:5-31:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f7943d9026bf6c2580297e366cca4694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f7943d9026bf6c2580297e366cca4694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/althea/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2cb754933afc66020bd4bf9553213196/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/althea/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2cb754933afc66020bd4bf9553213196/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2a3a3f1b3aec833b443559001669d29b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2a3a3f1b3aec833b443559001669d29b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4839c19ca142d255a22f927d826f16e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4839c19ca142d255a22f927d826f16e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/541d7368080df49a3ce47dd35b659977/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/541d7368080df49a3ce47dd35b659977/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7d105f0a207478f5e3d350bb81a827d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7d105f0a207478f5e3d350bb81a827d2/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/f01c112fc426058923c958cd326541c0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/f01c112fc426058923c958cd326541c0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/6cc8e5cf5482a389eeec30f36e21f773/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/6cc8e5cf5482a389eeec30f36e21f773/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d679a36d20a3c85e56c02e79ca59f2b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d679a36d20a3c85e56c02e79ca59f2b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/771a837cfeaf0fbff44e138732e46ec4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/771a837cfeaf0fbff44e138732e46ec4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/47c879509ccb33428cdff6439c808472/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/47c879509ccb33428cdff6439c808472/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:adapters:3.3.0-alpha03] /Users/althea/.gradle/caches/transforms-1/files-1.1/adapters-3.3.0-alpha03.aar/6077a6ac83f259489fa07344a4a0a6d3/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.3.0-alpha03] /Users/althea/.gradle/caches/transforms-1/files-1.1/adapters-3.3.0-alpha03.aar/6077a6ac83f259489fa07344a4a0a6d3/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.3.0-alpha03] /Users/althea/.gradle/caches/transforms-1/files-1.1/library-3.3.0-alpha03.aar/bb343527877d2c412698d1981b75efb5/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.3.0-alpha03] /Users/althea/.gradle/caches/transforms-1/files-1.1/library-3.3.0-alpha03.aar/bb343527877d2c412698d1981b75efb5/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f41310e07c818393044bfb6d75c33eb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f41310e07c818393044bfb6d75c33eb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/177e8c755074e808e0a400df7b33f18a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/177e8c755074e808e0a400df7b33f18a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/502dcfd1ae539535fc792dceb54c06b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/502dcfd1ae539535fc792dceb54c06b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/03ee64d7e7ee8951371f38fbc2d27fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/03ee64d7e7ee8951371f38fbc2d27fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/377c688c2e703ccde6a18944431563f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/377c688c2e703ccde6a18944431563f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/718d1c35e3b378288a06a27059f23263/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/718d1c35e3b378288a06a27059f23263/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a9ee0095a28be57e5181db543305ff02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a9ee0095a28be57e5181db543305ff02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5711c615a26a7f69d49b2224925f0fe6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5711c615a26a7f69d49b2224925f0fe6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e661f334f5744243ed4b893fa12590e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e661f334f5744243ed4b893fa12590e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ef9d68325750dfa6ff7ee468f43b465e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ef9d68325750dfa6ff7ee468f43b465e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/71ce9c09071066596b52dcc9d4b45f02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/71ce9c09071066596b52dcc9d4b45f02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84c78abd6722d9efe22f7734148e08f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84c78abd6722d9efe22f7734148e08f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5aee961bcd3d9fe28df23fecfa89889a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5aee961bcd3d9fe28df23fecfa89889a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/59eb721d3de64a8e05b268ebc4faefe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/59eb721d3de64a8e05b268ebc4faefe1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9d85a00cd8aa49461112d996ae641733/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9d85a00cd8aa49461112d996ae641733/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/dc398d62ffbfe181242873b5083ab184/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/dc398d62ffbfe181242873b5083ab184/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3c603849f90c9e0942047c4fc3a4ce30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3c603849f90c9e0942047c4fc3a4ce30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0e6ad62033f750c6b91578fed202beb7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0e6ad62033f750c6b91578fed202beb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1c88c531300829049d3c6b3a4637f3ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1c88c531300829049d3c6b3a4637f3ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e552a60356392533f11746396387f3ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e552a60356392533f11746396387f3ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7f44ba311b59f84e9053a844efd71b88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7f44ba311b59f84e9053a844efd71b88/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/09e992d24f5ee9dc52ce965c440c6bfd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/althea/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/09e992d24f5ee9dc52ce965c440c6bfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e994b95d20877dfb8a7fe736de7dc63b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e994b95d20877dfb8a7fe736de7dc63b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/althea/Desktop/dubahcks/NativeVersion/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.algolia:instantsearch-android:1.13.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/instantsearch-android-1.13.0.aar/2c552fbc9f19499c07918814468bb5be/AndroidManifest.xml:33:5-67
+MERGED from [com.algolia:algoliasearch-android:3.23.13] /Users/althea/.gradle/caches/transforms-1/files-1.1/algoliasearch-android-3.23.13.aar/9d6328b4ed300368a0793c4b3e678a5c/AndroidManifest.xml:33:5-67
+MERGED from [com.algolia:algoliasearch-android:3.23.13] /Users/althea/.gradle/caches/transforms-1/files-1.1/algoliasearch-android-3.23.13.aar/9d6328b4ed300368a0793c4b3e678a5c/AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from [com.algolia:instantsearch-android:1.13.0] /Users/althea/.gradle/caches/transforms-1/files-1.1/instantsearch-android-1.13.0.aar/2c552fbc9f19499c07918814468bb5be/AndroidManifest.xml:33:22-64

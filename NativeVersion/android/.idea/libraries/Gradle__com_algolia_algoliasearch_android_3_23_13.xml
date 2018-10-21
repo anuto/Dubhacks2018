@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.algolia:algoliasearch-android-3.23.13">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/algoliasearch-android-3.23.13.aar/9d6328b4ed300368a0793c4b3e678a5c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/algoliasearch-android-3.23.13.aar/9d6328b4ed300368a0793c4b3e678a5c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.algolia/algoliasearch-android/3.23.13/55c1749cf6719553f16d6e32f57ee23f6bb22afa/algoliasearch-android-3.23.13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
