@@ -1,5 +1,5 @@
 #container1 {
-  background-color: #FAEACB;
+  background-color: #EEEEEF;
   padding: 10%;
 }
 
@@ -17,4 +17,10 @@
 
 nav, .navbar {
   margin-bottom: 0;
+}
+
+.jumbotron {
+  border-radius: 15%;
+  margin-bottom: 4em;
+  background-color: #EEEEEF;
 }
