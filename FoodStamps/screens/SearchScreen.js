@@ -18,6 +18,8 @@ import { WebBrowser } from 'expo';
 
 import { MonoText } from '../components/StyledText';
 
+import FSSearchFoodModule from '../FSSearchFoodModule'
+
 export default class SearchScreen extends React.Component {
   static navigationOptions = {
     header: null,
@@ -29,9 +31,7 @@ export default class SearchScreen extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-        </ScrollView>
+      <View>
       </View>
     );
   }
