@@ -1,7 +1,21 @@
 import React from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font, Icon } from 'expo';
+import MainTabNavigator from './navigation/MainTabNavigator';
 import AppNavigator from './navigation/AppNavigator';
+import { createStackNavigator } from 'react-navigation';
+import HomeScreen from './screens/HomeScreen';
+import StoresScreen from './screens/StoresScreen';
+
+/*const RootStack = createStackNavigator(
+  {
+    Home: HomeScreen,
+    Stores: StoresScreen,
+  },
+  {
+    initialRouteName: 'Home',
+  }
+);*/
 
 export default class App extends React.Component {
   state = {

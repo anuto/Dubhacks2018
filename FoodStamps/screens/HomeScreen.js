@@ -18,6 +18,8 @@ import { WebBrowser } from 'expo';
 
 import ButtonIcon from '../components/ButtonIcon';
 import { MonoText } from '../components/StyledText';
+import { createStackNavigator } from 'react-navigation';
+import MainTabNavigator from '../navigation/MainTabNavigator'
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -60,7 +62,7 @@ export default class HomeScreen extends React.Component {
                 />
               </View>
               <TouchableNativeFeedback
-                onPress={this._onPressButton}
+                onPress={() => this.props.navigation.navigate('Stores')}
                 background={Platform.OS === 'android'
                 ? TouchableNativeFeedback.SelectableBackground() : ''}>
                 <View style={styles.button}>
@@ -172,7 +174,7 @@ export default class HomeScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#e0c5b4',
   },
   developmentModeText: {
     marginBottom: 20,
@@ -275,12 +277,13 @@ const styles = StyleSheet.create({
   buttonFormat: {
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: '#fff',
+    backgroundColor: '#e0c5b4',
     marginLeft: 'auto',
     marginRight: 'auto',
   },
   button: {
     alignItems: 'center',
+    borderRadius: 30,
   },
   buttonText: {
     padding: 20,
@@ -288,6 +291,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto',
     fontWeight: 'bold',
     marginBottom: -10,
+    borderRadius: 30
   },
   iconContainer: {
     flex: 1,
@@ -296,3 +300,9 @@ const styles = StyleSheet.create({
     marginBottom: -30,
   },
 });
+
+/* createStackNavigator({
+  Home: {
+    screen: HomeScreen
+  },
+});*/
