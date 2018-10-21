@@ -1,4 +1,4 @@
-`[https://www.SNAPtrackapp.com](https://www.SNAPtrackapp.com)`
+Our project: [https://www.SNAPtrackapp.com](https://www.SNAPtrackapp.com)
 
 # SnapTrack
 Despite the fact that receiving SNAP aid requires being near the federal poverty level in most states, we found that this community is somewhat underserved by tech. We found one app that consolidates coupons, jobs, and allows users to check their EBT balance (in most states). We believe that there are other resources that tech can provide. Our app's features were:
