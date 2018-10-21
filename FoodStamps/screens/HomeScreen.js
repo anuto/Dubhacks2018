@@ -27,6 +27,10 @@ export default class HomeScreen extends React.Component {
     Alert.alert('You tapped the button!')
   }
 
+  _storesNav() {
+
+  }
+
   render() {
     const { navigate } = this.props.navigation;
 
@@ -46,13 +50,13 @@ export default class HomeScreen extends React.Component {
           <View style={styles.buttonFormat}>
             <View style={styles.buttonContainer}>
               <Button style={styles.button}
-                /*icon={
-                  <Icon
-                    name='md-environment'
-                    size={50}
-                    color='red'
-                  />
-                }*/
+              icon={
+                <Icon.Ionicons
+                  name='md-environment'
+                  size={50}
+                  color='red'
+                />
+              }
                 onPress={() =>
                   navigate('screen: StoresScreen.js')
                 }
